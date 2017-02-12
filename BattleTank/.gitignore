@@ -64,5 +64,16 @@ Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-BuildingEscape/Content/StarterContent/Textures
-BuildingEscape/Content/StarterContent/HDRI
+/Content/StarterContent/Textures
+/Content/StarterContent/Arch*
+/Content/StarterContent/Blueprints
+/Content/StarterContent/Maps
+/Content/StarterContent/Par*
+/Content/StarterContent/Props
+/Content/StarterContent/Shapes
+
+
+
+
+/Content/StarterContent/Audio
+/Content/StarterContent/HDRI
