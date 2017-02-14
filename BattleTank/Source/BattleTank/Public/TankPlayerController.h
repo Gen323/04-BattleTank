@@ -25,4 +25,17 @@ private:
 	//Start the tank moving the barrel towards the aim point intersects the world
 	void AimTowardsCrosshair();
 
+	//Return an Out parameter, true if hit landscape
+	bool GetSightRayHitLocation(FVector& HitLocation) const;
+
+	
+	//Returns current start of reach line
+	FVector GetAimLineStart();
+
+	//Returns current end of reach line
+	FVector GetAimLineEnd();
+
+	
+
+
 };
